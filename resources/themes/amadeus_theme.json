@@ -1,0 +1,147 @@
+{
+    "#start_recording_button":
+    {
+        "colours":
+            {   
+                "normal_bg": "#00000000",
+                "selected_bg": "#00000000",
+                "hovered_bg": "#009DFF",
+
+                "normal_border": "#00A9FF", 
+                "hovered_border": "#00B5FF"
+            },
+        "misc":
+            {
+                "shape": "rounded_rectangle",
+                "shape_corner_radius": "25,25,25,25",
+                "border_width": "1",
+                "shadow_width": "1"
+            },
+        "images":
+            {
+                "normal_image": 
+                    {
+                        "package": "resources.sprites.buttons",
+                        "resource": "mic_icon.png"
+                    }
+            }
+    },
+    "#stop_recording_button":
+    {
+        "colours":
+            {   
+                "normal_bg": "#00000000",
+                "selected_bg": "#00000000",
+                "hovered_bg": "#009DFF",
+
+                "normal_border": "#00A9FF", 
+                "hovered_border": "#00B5FF"
+            },
+        "misc":
+            {
+                "shape": "rounded_rectangle",
+                "shape_corner_radius": "25,25,25,25",
+                "border_width": "1",
+                "shadow_width": "1"
+            },
+        "images":
+            {
+                "normal_image": 
+                    {
+                        "package": "resources.sprites.buttons",
+                        "resource": "recording_icon.png"
+                    }
+            }
+    },
+    "#reset_conversation_button":
+    {
+        "colours":
+            {   
+                "normal_bg": "#00000000",
+                "selected_bg": "#00000000",
+                "hovered_bg": "#009DFF",
+
+                "normal_border": "#00A9FF", 
+                "hovered_border": "#00B5FF"
+            },
+        "misc":
+            {
+                "shape": "rounded_rectangle",
+                "shape_corner_radius": "25,25,25,25",
+                "border_width": "1",
+                "shadow_width": "1"
+            },
+        "images":
+            {
+                "normal_image": 
+                    {
+                        "package": "resources.sprites.buttons",
+                        "resource": "reset_button.png"
+                    }
+            }
+    },
+    "#hide_terminal_button":
+    {
+        "colours":
+            {   
+                "normal_bg": "#252525",
+                "hovered_bg": "#424242"
+            },
+        "font":
+            {
+                "name": "console",
+                "size": "12",
+                "regular_resource": 
+                    {
+                        "package": "resources.fonts",
+                        "resource": "console.ttf"
+                    },
+                "bold_resource": 
+                    {
+                        "package": "resources.fonts",
+                        "resource": "console.ttf"
+                    }
+            }
+    },
+    "#show_terminal_button":
+    {
+        "colours":
+            {   
+                "normal_bg": "#252525",
+                "hovered_bg": "#424242"
+            },
+        "font":
+            {
+                "name": "console",
+                "size": "12",
+                "regular_resource": 
+                    {
+                        "package": "resources.fonts",
+                        "resource": "console.ttf"
+                    },
+                "bold_resource": 
+                    {
+                        "package": "resources.fonts",
+                        "resource": "console.ttf"
+                    }
+            }
+    },
+    "#terminal":
+    {
+        "font":
+            {
+                "name": "console",
+                "size": "12",
+                "regular_resource": 
+                    {
+                        "package": "resources.fonts",
+                        "resource": "console.ttf"
+                    },
+                "bold_resource": 
+                    {
+                        "package": "resources.fonts",
+                        "resource": "console.ttf"
+                    }
+            }
+    }
+}

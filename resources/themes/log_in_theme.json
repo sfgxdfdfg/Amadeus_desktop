@@ -1,0 +1,98 @@
+{
+    "#log_in_btn":
+        {
+            "colours":
+                {   
+                    "normal_bg": "#DFAB00",
+                    "hovered_bg": "#FFC400"
+                },
+            "misc": 
+                {
+                    "shape": "rounded_rectangle",
+                    "shape_corner_radius": "100,100,100,100" 
+                },
+            "images":
+                {
+                    "normal_image": 
+                        {
+                            "package": "resources.sprites.log-in",
+                            "resource": "log_in_btn.png"
+                        }
+                }
+        },
+
+    "#username_field":
+        {
+            "colours" : 
+            {
+                "dark_bg": "#000000",
+                "selected_bg": "#000000",
+                "normal_text": "#E9B300",
+                "normal_border": "#FFC400",
+                "text_cursor": "#FFFFFF"
+            },
+            "font":
+            {
+                "name": "console",
+                "size": "12",
+                "regular_resource": 
+                    {
+                        "package": "resources.fonts",
+                        "resource": "console.ttf"
+                    },
+                "bold_resource": 
+                    {
+                        "package": "resources.fonts",
+                        "resource": "console.ttf"
+                    }
+            },
+
+            "misc":
+            {
+                "shape": "rounded_rectangle",
+                "shape_corner_radius": "10",
+                "border_width": "2",
+                "shadow_width": "6",
+                "shadow_color": "#FFFF0080",
+                "padding": "6,4"
+            }
+        },
+        
+    "#password_field":
+        {
+            "colours" : 
+            {
+                "dark_bg": "#000000",
+                "selected_bg": "#000000",
+                "normal_text": "#E9B300",
+                "normal_border": "#FFC400",
+                "text_cursor": "#FFFFFF"
+            },
+            "font":
+            {
+                "name": "console",
+                "size": "12",
+                "regular_resource": 
+                    {
+                        "package": "resources.fonts",
+                        "resource": "console.ttf"
+                    },
+                "bold_resource": 
+                    {
+                        "package": "resources.fonts",
+                        "resource": "console.ttf"
+                    }
+            },
+
+            "misc":
+            {
+                "is_text_hidden": "True",
+                "shape": "rounded_rectangle",
+                "shape_corner_radius": "10",
+                "border_width": "2",
+                "shadow_width": "6",
+                "shadow_color": "#FFFF0080",
+                "padding": "6,4"
+            }
+        }
+}

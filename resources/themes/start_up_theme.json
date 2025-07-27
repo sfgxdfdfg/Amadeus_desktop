@@ -1,0 +1,29 @@
+{
+    "#connect_button":
+        {
+            "colours":
+            {   
+                "normal_bg": "#000000",
+                "hovered_bg": "#33322F",
+                "normal_text": "#FFFFFF",   
+                "hovered_text": "#FFFFFF",  
+                "normal_border": "#FCD200", 
+                "hovered_border": "#FCE500"
+            },
+            "misc":
+            {
+                "shape": "rounded_rectangle",
+                "shape_corner_radius": "25,25,25,25",
+                "border_width": "2",
+                "shadow_width": "2"
+            },
+            "images":
+            {
+                "normal_image": 
+                    {
+                        "package": "resources.sprites.labels",
+                        "resource": "connect_btn.png"
+                    }
+            }
+        }
+}
